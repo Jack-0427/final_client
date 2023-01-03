@@ -1,0 +1,42 @@
+export const mockAssets = [
+    {
+        id: 1,
+        userId: 1,
+        name: "華南銀行",
+        balance: 100000,
+        available: true,
+        create_time: new Date("2022-01-05"),
+    },
+    {
+        id: 2,
+        userId: 1,
+        name: "富邦銀行",
+        balance: 200000,
+        available: true,
+        create_time: "2022-01-05",
+    },
+    {
+        id: 3,
+        userId: 1,
+        name: "中國信託",
+        balance: 300000,
+        available: true,
+        create_time: "2022-01-05",
+    },
+    {
+        id: 4,
+        userId: 1,
+        name: "兆豐銀行",
+        balance: 400000,
+        available: true,
+        create_time: "2022-01-05",
+    },
+    {
+        id: 5,
+        userId: 1,
+        name: "台新銀行",
+        balance: 500000,
+        available: true,
+        create_time: "2022-01-05",
+    },
+];
